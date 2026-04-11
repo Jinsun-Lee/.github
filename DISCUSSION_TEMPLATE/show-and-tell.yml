@@ -1,0 +1,15 @@
+title: "[Show] "
+labels: ["show-and-tell"]
+body:
+  - type: textarea
+    id: content
+    attributes:
+      label: 내용
+      description: 공유할 프로젝트나 결과물.
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: 링크
+      description: 관련 링크나 스크린샷.

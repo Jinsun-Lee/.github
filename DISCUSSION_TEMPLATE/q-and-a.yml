@@ -1,0 +1,20 @@
+title: "[Q&A] "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 질문
+      description: 질문 내용을 작성한다.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 배경
+      description: 상황이나 시도한 방법.
+  - type: textarea
+    id: environment
+    attributes:
+      label: 환경
+      description: OS, 버전 등 관련 환경 정보.
