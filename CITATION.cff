@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: ".github"
+type: software
+authors:
+  - family-names: Lee
+    given-names: Jinsun
+    alias: Jinsun-Lee
+repository-code: "https://github.com/Jinsun-Lee/.github"
+license: MIT
