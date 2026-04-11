@@ -1,0 +1,61 @@
+# C/C++ 일반 빌드 산출물
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.dylib
+*.out
+*.d
+*.gch
+*.pch
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+
+# 펌웨어
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+*.axf
+
+# IDE / 툴체인
+.metadata/
+.settings/
+Debug/
+Release/
+*.uvguix.*
+*.uvopt
+*.dep
+*.ewt
+.pio/
+.pioenvs/
+
+# ROS2 / Colcon
+/build
+/install
+/log
+
+# Python
+__pycache__
+*.pyc
+
+# PyTorch
+*.pt
+
+# Node.js
+**/node_modules
+**/dist
+
+# 인증서 / 키
+*.pem
+
+# VPN / Docker
+*.ovpn
+.dockerignore
