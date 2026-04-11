@@ -1,6 +1,6 @@
 ---
 name: Chore 양식
-about: 빌드, 설정 등 기타 작업
+about: 빌드나 설정 등의 작업이 필요할 때
 title: "[chore] "
 labels: chore
 assignees: ''

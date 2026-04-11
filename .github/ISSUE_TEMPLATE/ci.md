@@ -1,6 +1,6 @@
 ---
 name: CI 양식
-about: CI/CD 설정 변경
+about: CI/CD 설정 변경할 때
 title: "[ci] "
 labels: ci
 assignees: ''
