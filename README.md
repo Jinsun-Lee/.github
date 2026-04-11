@@ -1,5 +1,7 @@
-# .github
-GitHub 특수 레포. 같은 소유자(개인 또는 조직)의 다른 레포들이 community health files 를 가지지 않을 때 **public 레포**에 fallback 으로 사용된다.
+# 설명  
+GitHub 특수 레포. 같은 소유자(개인 또는 조직)의 다른 레포들이 community health files 를 가지지 않을 때 **public 레포**에 fallback 으로 사용되는 저장소입니다.
+
+<br><br> 
 
 ## 포함 파일
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md): 행동 강령
