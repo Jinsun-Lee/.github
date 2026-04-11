@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 질문 / 토론
+    url: https://github.com/Jinsun-Lee/.github/discussions
+    about: 질문이나 아이디어는 Discussions 에 올린다.
+  - name: 보안 취약점 신고
+    url: https://github.com/Jinsun-Lee/.github/security/advisories/new
+    about: 보안 이슈는 private advisory 로 보고한다.
