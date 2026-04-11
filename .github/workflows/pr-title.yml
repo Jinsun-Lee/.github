@@ -1,0 +1,21 @@
+name: PR title check
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  pull-requests: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const title = context.payload.pull_request.title;
+            const regex = /^\[(feat|fix|docs|refactor|test|chore|init|style|perf|build|ci|revert)\] .+/;
+            if (!regex.test(title)) {
+              core.setFailed(`PR 제목이 '[prefix] 내용' 형식이 아닙니다: "${title}"`);
+            }
