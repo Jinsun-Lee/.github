@@ -1,0 +1,39 @@
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+categories:
+  - title: "✨ Features"
+    labels:
+      - enhancement
+      - feat
+  - title: "🐛 Bug Fixes"
+    labels:
+      - bug
+      - fix
+  - title: "📚 Documentation"
+    labels:
+      - documentation
+      - docs
+  - title: "🔧 Maintenance"
+    labels:
+      - chore
+      - refactor
+      - test
+change-template: "- $TITLE (#$NUMBER) @$AUTHOR"
+change-title-escapes: '\<*_&'
+version-resolver:
+  major:
+    labels:
+      - major
+  minor:
+    labels:
+      - enhancement
+      - feat
+  patch:
+    labels:
+      - bug
+      - fix
+      - chore
+  default: patch
+template: |
+  ## 변경 사항
+  $CHANGES
