@@ -1,0 +1,45 @@
+- name: bug
+  color: d73a4a
+  description: 버그
+- name: enhancement
+  color: a2eeef
+  description: 새 기능 / 개선
+- name: documentation
+  color: 0075ca
+  description: 문서
+- name: question
+  color: d876e3
+  description: 질문
+- name: chore
+  color: fef2c0
+  description: 빌드, CI, 의존성 등 유지보수
+- name: refactor
+  color: fbca04
+  description: 리팩토링
+- name: test
+  color: bfd4f2
+  description: 테스트
+- name: duplicate
+  color: cfd3d7
+  description: 중복 이슈 / PR
+- name: wontfix
+  color: ffffff
+  description: 해결하지 않음
+- name: invalid
+  color: e4e669
+  description: 유효하지 않음
+- name: good first issue
+  color: 7057ff
+  description: 첫 기여에 적합
+- name: help wanted
+  color: 008672
+  description: 기여 요청
+- name: stale
+  color: cccccc
+  description: 오래된 이슈 / PR
+- name: pinned
+  color: 0e8a16
+  description: stale 제외
+- name: security
+  color: b60205
+  description: 보안 관련
